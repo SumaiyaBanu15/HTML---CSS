@@ -1,20 +1,27 @@
-.container{ 
-    text-align: center;
-    font-size: larger;
-    font-family:sans-serif;
-    margin: 100px;
-    border : 2px solid black;
-    padding : 50px;
-    background-color:bisque;
-   
-}
-
 .image{
-    display:flex;
-    justify-content: flex-end;
-        
+    width:200vh;
+    height: 200vh;
+    position: relative;
+    background-image: url(./Assets/Sumaiya.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-img{
-    width:130px;
-    height:130px;
+.text{
+    width:200vh;
+    height:200vh;
+    padding-left: 30px;
+    font-size: x-large;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(0,0,0,0.5);
+}
+h1{
+    color: black;
+}
+.h2{
+    color:rgba(80, 3, 3, 0.616)
 }

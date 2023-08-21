@@ -1,7 +1,7 @@
 .container{
     text-align: center;
     font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:sans-serif;
 }
 .image{
     display:block;
